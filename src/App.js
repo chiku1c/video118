@@ -1,6 +1,8 @@
 
 import './App.css';
-import ParentComponent from './componants/ParentComponent';
+import NameList from './componants/NameList';
+//import { ContextParent } from './componants/ContextParent';
+//import ParentComponent from './componants/ParentComponent';
 // import Click from './componants/Click';
 // import Functionclick from './componants/Functionclick';
 // import EventBind from './EventBind';
@@ -18,7 +20,8 @@ function App() {
       {/* <Functionclick/>
       <Click/> */}
       {/* <EventBind/> */}
-      <ParentComponent/>
+     
+      <NameList/>
       
     </div>
   );
